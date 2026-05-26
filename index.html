@@ -218,7 +218,7 @@
       </div>
       <div class="hero-stats">
         <div><div class="stat-num">3.6</div><div class="stat-label">GPA at NYU</div></div>
-        <div><div class="stat-num">4+</div><div class="stat-label">Pipeline Projects</div></div>
+        <div><div class="stat-num">5+</div><div class="stat-label">Pipeline Projects</div></div>
         <div><div class="stat-num">100%</div><div class="stat-label">CDS Scholarship</div></div>
       </div>
     </div>
@@ -293,6 +293,13 @@
       <h2 class="section-title">Tools I <span class="tg">work with</span></h2>
     </div>
     <div class="skills-grid">
+      <div class="skill-cat fade-in" style="transition-delay:.05s">
+        <div class="skill-cat-icon">🤖</div>
+        <div class="skill-cat-title">AI & Automation</div>
+        <div class="skill-tags">
+          <span class="tag">LLMs (OpenAI/Anthropic)</span><span class="tag">Prompt Engineering</span><span class="tag">AI Workflow Automation</span>
+        </div>
+      </div>
       <div class="skill-cat fade-in" style="transition-delay:.1s">
         <div class="skill-cat-icon">☁️</div>
         <div class="skill-cat-title">Cloud & Data Engineering</div>
@@ -306,36 +313,29 @@
         <div class="skill-cat-title">Processing & Orchestration</div>
         <div class="skill-tags">
           <span class="tag c">Apache Airflow</span><span class="tag c">Apache Spark</span><span class="tag c">PySpark</span><span class="tag c">Apache Kafka</span>
-          <span class="tag c">Snowpipe</span><span class="tag c">Apache NiFi</span><span class="tag c">Streams &amp; Tasks</span><span class="tag c">DAG Orchestration</span>
+          <span class="tag c">Snowpipe</span><span class="tag c">Apache NiFi</span><span class="tag c">dbt</span><span class="tag c">DAG Orchestration</span>
         </div>
       </div>
       <div class="skill-cat fade-in" style="transition-delay:.3s">
         <div class="skill-cat-icon">💻</div>
         <div class="skill-cat-title">Languages & Querying</div>
         <div class="skill-tags">
-          <span class="tag a">Python</span><span class="tag a">SQL</span><span class="tag a">R</span><span class="tag a">PySpark</span><span class="tag a">Pandas</span>
+          <span class="tag a">Python</span><span class="tag a">SQL</span><span class="tag a">R</span><span class="tag a">PySpark</span>
         </div>
       </div>
       <div class="skill-cat fade-in" style="transition-delay:.15s">
         <div class="skill-cat-icon">🏗️</div>
         <div class="skill-cat-title">Data Systems & Architecture</div>
         <div class="skill-tags">
-          <span class="tag">ETL Pipelines</span><span class="tag">Data Warehousing</span><span class="tag">Lakehouse</span>
-          <span class="tag">Data Modeling</span><span class="tag">Streaming</span><span class="tag">Batch Processing</span><span class="tag">CDC</span>
+          <span class="tag">ETL Pipelines</span><span class="tag">Data Warehousing</span><span class="tag">Batch &amp; Streaming Pipelines</span>
+          <span class="tag">Data Modeling</span><span class="tag">Predictive Modeling</span><span class="tag">Orchestration</span><span class="tag">Automation</span>
         </div>
       </div>
       <div class="skill-cat fade-in" style="transition-delay:.25s">
         <div class="skill-cat-icon">🛠️</div>
-        <div class="skill-cat-title">Tools & DevOps</div>
+        <div class="skill-cat-title">Tools & Visualization</div>
         <div class="skill-tags">
-          <span class="tag c">Git</span><span class="tag c">Docker</span><span class="tag c">PostgreSQL</span><span class="tag c">Tableau</span>
-        </div>
-      </div>
-      <div class="skill-cat fade-in" style="transition-delay:.35s">
-        <div class="skill-cat-icon">🤝</div>
-        <div class="skill-cat-title">Collaboration & Impact</div>
-        <div class="skill-tags">
-          <span class="tag a">Cross-functional Teams</span><span class="tag a">ML Integration</span><span class="tag a">Dashboard Design</span><span class="tag a">Agile</span>
+          <span class="tag c">Git</span><span class="tag c">Docker</span><span class="tag c">Tableau</span><span class="tag c">PowerBI</span><span class="tag c">Streamlit</span><span class="tag c">Microsoft Excel</span>
         </div>
       </div>
     </div>
@@ -355,9 +355,22 @@
         <div class="carousel-track" id="carousel-track">
           <div class="proj-card">
         <div class="proj-num">01</div>
+        <div class="proj-icon ip" style="background:rgba(168,85,247,.15)">🤖</div>
+        <div class="proj-title">DataBridge: AI-Powered Data Integration Pipeline</div>
+        <p class="proj-desc">Built an AI system to unify 1M+ records across 3 cities with incompatible schemas, eliminating weeks of manual mapping. Used LLMs and sentence embeddings to automatically match equivalent data points across datasets. Evaluated output quality using precision/recall metrics to ensure reliable results before downstream use.</p>
+        <div class="proj-stack">
+          <span class="stag">Python</span><span class="stag">LLMs</span><span class="stag">Sentence Transformers</span><span class="stag">HDBSCAN</span><span class="stag">DuckDB</span>
+        </div>
+        <a href="https://github.com/rithujaa/DataBridge.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          View Github
+        </a>
+      </div>
+          <div class="proj-card">
+        <div class="proj-num">02</div>
         <div class="proj-icon ip">🏠</div>
         <div class="proj-title">Airbnb Data Pipeline</div>
-        <p class="proj-desc">End-to-end Airflow DAG in Docker ingesting Airbnb listings daily from a public endpoint. Built custom Postgres-to-S3 operator for analytics-ready CSV exports with full scheduling, retries, and automated downstream delivery.</p>
+        <p class="proj-desc">Built an automated Airflow DAG to ingest Airbnb listings daily with scheduling and retries, no manual intervention required. Developed a custom Postgres-to-S3 operator to automatically export query outputs as analytics-ready CSVs. Designed reproducible ingestion workflows with documented transformations for consistency and reliability.</p>
         <div class="proj-stack">
           <span class="stag">Apache Airflow</span><span class="stag">AWS S3</span><span class="stag">PostgreSQL</span><span class="stag">Pandas</span><span class="stag">Docker</span>
         </div>
@@ -367,7 +380,7 @@
         </a>
       </div>
           <div class="proj-card">
-        <div class="proj-num">02</div>
+        <div class="proj-num">03</div>
         <div class="proj-icon ic">🛒</div>
         <div class="proj-title">E-Commerce Data Engineering Pipeline</div>
         <p class="proj-desc">Cloud-native lakehouse pipeline ingesting datasets from GitHub into Azure Data Lake via ADF, transforming with Databricks/Spark, and loading curated data into Azure Synapse for SQL-based analytics and reporting.</p>
@@ -380,12 +393,12 @@
         </a>
       </div>
           <div class="proj-card">
-        <div class="proj-num">03</div>
+        <div class="proj-num">04</div>
         <div class="proj-icon ia">📡</div>
         <div class="proj-title">Real-Time Data Streaming Pipeline</div>
-        <p class="proj-desc">Generated synthetic customer events on EC2, streamed via Apache NiFi into S3, auto-loaded into Snowflake via Snowpipe. Modeled with Raw/Current/History layers and full change capture via Snowflake Streams &amp; Tasks.</p>
+        <p class="proj-desc">Generated synthetic customer events on EC2 (Python/Faker) and streamed ingestion through NiFi into S3. Modeled data using Raw / Current / History layers with Snowpipe, Streams, and Tasks for automated CDC.</p>
         <div class="proj-stack">
-          <span class="stag">AWS EC2</span><span class="stag">Apache NiFi</span><span class="stag">Amazon S3</span><span class="stag">Snowflake</span><span class="stag">Snowpipe</span>
+          <span class="stag">AWS EC2</span><span class="stag">Apache NiFi</span><span class="stag">Amazon S3</span><span class="stag">Snowflake</span><span class="stag">Snowpipe</span><span class="stag">Streams</span><span class="stag">Tasks</span>
         </div>
         <a href="https://github.com/rithujaa/real-time-data-streaming.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
@@ -393,10 +406,10 @@
         </a>
       </div>
           <div class="proj-card">
-        <div class="proj-num">04</div>
+        <div class="proj-num">05</div>
         <div class="proj-icon ig">🎵</div>
         <div class="proj-title">Spotify ETL Pipeline</div>
-        <p class="proj-desc">Serverless ETL pipeline extracting playlist data from the Spotify API, landing raw JSON in S3, triggering Lambda to normalize into songs/albums/artists tables, and auto-ingesting into Snowflake via Snowpipe.</p>
+        <p class="proj-desc">Built a serverless ETL pipeline using AWS Lambda to extract Spotify playlist data, transform into normalized tables, and load into Snowflake via Snowpipe. Delivered a fully automated pipeline with scheduled extraction, transformation, and warehouse ingestion.</p>
         <div class="proj-stack">
           <span class="stag">Spotify API</span><span class="stag">AWS S3</span><span class="stag">AWS Lambda</span><span class="stag">Snowflake</span><span class="stag">Snowpipe</span>
         </div>
@@ -429,16 +442,30 @@
     <div class="exp-card fade-in" style="transition-delay:.1s">
       <div class="exp-header">
         <div>
-          <div class="exp-role">Analytical Engineer Intern</div>
-          <div class="exp-company">Sonline LLC &nbsp;·&nbsp; Remote</div>
+          <div class="exp-role">Data Science Intern</div>
+          <div class="exp-company">Trilemma Foundation &nbsp;·&nbsp; Remote</div>
         </div>
-        <div class="exp-date">May 2023 – Aug 2023</div>
+        <div class="exp-date">Sept 2025 – Dec 2025</div>
       </div>
       <ul class="exp-bullets">
-        <li>Built and maintained data pipelines using Python and Spark to collect and process large volumes of sensor data from multiple sources, ensuring data reliability and readiness for analysis.</li>
-        <li>Designed and optimized SQL workflows in Snowflake to support analytics, reporting, and downstream use cases across multiple business teams.</li>
-        <li>Collaborated with data science teams to integrate predictive models into production data pipelines, enabling real-time inference at scale.</li>
-        <li>Created dashboards and reports to monitor pipeline health and key performance metrics, helping teams make faster and more informed operational decisions.</li>
+        <li>Built a 6-agent ensemble strategy for dynamic Bitcoin accumulation, achieving a 90.37% win rate over uniform DCA across 3,075 rolling 12-month backtesting windows</li>
+        <li>Engineered features from 369 variables spanning on-chain metrics, macroeconomic indicators, and NLP-based sentiment signals (FinBERT, RoBERTa), applying statistical analysis to drive allocation decisions</li>
+        <li>Built an interactive Streamlit dashboard to visualize agent performance, sentiment trends, and rolling-window backtest results</li>
+      </ul>
+    </div>
+    <div class="exp-card fade-in" style="transition-delay:.2s">
+      <div class="exp-header">
+        <div>
+          <div class="exp-role">Analytical Engineer</div>
+          <div class="exp-company">Sonline LLC &nbsp;·&nbsp; Remote</div>
+        </div>
+        <div class="exp-date">May 2023 – Aug 2024</div>
+      </div>
+      <ul class="exp-bullets">
+        <li>Built interactive dashboards and data visualizations for 3+ enterprise clients, surfacing pipeline health and key business metrics</li>
+        <li>Developed and optimized SQL workflows to automate reporting pipelines across client datasets, cutting query turnaround time from days to hours</li>
+        <li>Worked directly with the founding team and client stakeholders across 2–3 enterprise accounts to translate business requirements into analytical solutions, presenting findings in regular client-facing meetings</li>
+        <li>Used Excel and SQL to clean and validate large client datasets, identifying and resolving recurring data inconsistencies that improved reporting accuracy</li>
       </ul>
     </div>
   </div>
