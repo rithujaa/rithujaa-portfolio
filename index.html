@@ -218,7 +218,7 @@
       </div>
       <div class="hero-stats">
         <div><div class="stat-num">3.6</div><div class="stat-label">GPA at NYU</div></div>
-        <div><div class="stat-num">9+</div><div class="stat-label">Projects</div></div>
+        <div><div class="stat-num">10</div><div class="stat-label">Projects</div></div>
         <div><div class="stat-num">100%</div><div class="stat-label">CDS Scholarship</div></div>
       </div>
     </div>
@@ -381,9 +381,23 @@
               View Github
             </a>
           </div>
-          <!-- 03: Real-Time Streaming — NiFi + Snowflake CDC, strong DE project -->
+          <!-- 03: Airbnb Occupancy & Revenue — Full ML pipeline, NYU project -->
           <div class="proj-card">
             <div class="proj-num">03</div>
+            <div class="proj-icon ig" style="background:rgba(16,185,129,.15)">🏡</div>
+            <div class="proj-title">Airbnb Occupancy & Revenue Prediction</div>
+            <p class="proj-desc">Predicted occupancy days and annual revenue for 36K+ NYC Airbnb listings using 8 ML models. Best model (XGBoost) achieved RMSE of 64 days for occupancy and $12K for revenue. Included NLP sentiment analysis on listing text via VADER and a top-earner classifier with 0.94 AUC.</p>
+            <div class="proj-stack">
+              <span class="stag">Python</span><span class="stag">XGBoost</span><span class="stag">CatBoost</span><span class="stag">Scikit-learn</span><span class="stag">NLTK</span><span class="stag">Pandas</span>
+            </div>
+            <a href="https://github.com/rithujaa/airbnb-occupancy-revenue-prediction.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 04: Real-Time Streaming — NiFi + Snowflake CDC, strong DE project -->
+          <div class="proj-card">
+            <div class="proj-num">04</div>
             <div class="proj-icon ia" style="background:rgba(245,158,11,.15)">⚡</div>
             <div class="proj-title">Real-Time Data Streaming Pipeline</div>
             <p class="proj-desc">Generated synthetic customer events on EC2 (Python/Faker) and streamed ingestion through NiFi into S3. Modeled data using Raw / Current / History layers with Snowpipe, Streams, and Tasks for automated CDC.</p>
@@ -395,9 +409,9 @@
               View Github
             </a>
           </div>
-          <!-- 04: Airbnb — Solid Airflow orchestration project -->
+          <!-- 05: Airbnb Pipeline — Solid Airflow orchestration project -->
           <div class="proj-card">
-            <div class="proj-num">04</div>
+            <div class="proj-num">05</div>
             <div class="proj-icon ip">🏠</div>
             <div class="proj-title">Airbnb Data Pipeline</div>
             <p class="proj-desc">Built an automated Airflow DAG to ingest Airbnb listings daily with scheduling and retries, no manual intervention required. Developed a custom Postgres-to-S3 operator to automatically export query outputs as analytics-ready CSVs. Designed reproducible ingestion workflows with documented transformations for consistency and reliability.</p>
@@ -409,9 +423,9 @@
               View Github
             </a>
           </div>
-          <!-- 05: Spotify — Serverless ETL -->
+          <!-- 06: Spotify — Serverless ETL -->
           <div class="proj-card">
-            <div class="proj-num">05</div>
+            <div class="proj-num">06</div>
             <div class="proj-icon ig">🎵</div>
             <div class="proj-title">Spotify ETL Pipeline</div>
             <p class="proj-desc">Built a serverless ETL pipeline using AWS Lambda to extract Spotify playlist data, transform into normalized tables, and load into Snowflake via Snowpipe. Delivered a fully automated pipeline with scheduled extraction, transformation, and warehouse ingestion.</p>
@@ -423,9 +437,9 @@
               View Github
             </a>
           </div>
-          <!-- 06: E-Commerce — Azure lakehouse pipeline -->
+          <!-- 07: E-Commerce — Azure lakehouse pipeline -->
           <div class="proj-card">
-            <div class="proj-num">06</div>
+            <div class="proj-num">07</div>
             <div class="proj-icon ic">🛒</div>
             <div class="proj-title">E-Commerce Data Engineering Pipeline</div>
             <p class="proj-desc">Cloud-native lakehouse pipeline ingesting datasets from GitHub into Azure Data Lake via ADF, transforming with Databricks/Spark, and loading curated data into Azure Synapse for SQL-based analytics and reporting.</p>
@@ -437,9 +451,9 @@
               View Github
             </a>
           </div>
-          <!-- 07: Olympics — Azure ETL, similar stack but different domain -->
+          <!-- 08: Olympics — Azure ETL, similar stack but different domain -->
           <div class="proj-card">
-            <div class="proj-num">07</div>
+            <div class="proj-num">08</div>
             <div class="proj-icon ia" style="background:rgba(245,158,11,.15)">🏅</div>
             <div class="proj-title">Olympics Data Pipeline (Azure)</div>
             <p class="proj-desc">End-to-end Azure data engineering pipeline for Tokyo Olympics data. Ingested raw CSVs via Azure Data Factory into ADLS Gen2, transformed with Databricks/PySpark (type casting, aggregations, medal analysis), and loaded into Azure Synapse for SQL-based analytics.</p>
@@ -451,9 +465,9 @@
               View Github
             </a>
           </div>
-          <!-- 08: Employee Attrition — ML/DS, shows breadth -->
+          <!-- 09: Employee Attrition — ML/DS, shows breadth -->
           <div class="proj-card">
-            <div class="proj-num">08</div>
+            <div class="proj-num">09</div>
             <div class="proj-icon ig" style="background:rgba(16,185,129,.15)">📊</div>
             <div class="proj-title">Employee Attrition Prediction</div>
             <p class="proj-desc">Predicted employee attrition using the IBM HR dataset (1,470 records). Performed EDA, addressed class imbalance with SMOTE, and trained Logistic Regression, Random Forest, XGBoost, and CatBoost models. Best model (CatBoost) achieved an AUC of 0.82 with key predictors like OverTime and JobSatisfaction.</p>
@@ -465,9 +479,9 @@
               View Github
             </a>
           </div>
-          <!-- 09: NBA — Fun ML app, good conversation starter -->
+          <!-- 10: NBA — Fun ML app, good conversation starter -->
           <div class="proj-card">
-            <div class="proj-num">09</div>
+            <div class="proj-num">10</div>
             <div class="proj-icon ip" style="background:rgba(124,58,237,.15)">🏀</div>
             <div class="proj-title">NBA Player Similarity App</div>
             <p class="proj-desc">Built a web app using K-Means clustering and Euclidean distance to find NBA players with similar statistical profiles. Scraped player data from Basketball-Reference using Selenium, and deployed an interactive Streamlit app for user exploration with radar chart visualizations.</p>
