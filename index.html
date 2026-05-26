@@ -218,7 +218,7 @@
       </div>
       <div class="hero-stats">
         <div><div class="stat-num">3.6</div><div class="stat-label">GPA at NYU</div></div>
-        <div><div class="stat-num">5+</div><div class="stat-label">Pipeline Projects</div></div>
+        <div><div class="stat-num">9+</div><div class="stat-label">Projects</div></div>
         <div><div class="stat-num">100%</div><div class="stat-label">CDS Scholarship</div></div>
       </div>
     </div>
@@ -353,70 +353,131 @@
     <div class="carousel-container">
       <div class="carousel-wrapper">
         <div class="carousel-track" id="carousel-track">
+          <!-- 01: DataBridge — AI + LLMs + 1M records, most unique & impressive -->
           <div class="proj-card">
-        <div class="proj-num">01</div>
-        <div class="proj-icon ip" style="background:rgba(168,85,247,.15)">🤖</div>
-        <div class="proj-title">DataBridge: AI-Powered Data Integration Pipeline</div>
-        <p class="proj-desc">Built an AI system to unify 1M+ records across 3 cities with incompatible schemas, eliminating weeks of manual mapping. Used LLMs and sentence embeddings to automatically match equivalent data points across datasets. Evaluated output quality using precision/recall metrics to ensure reliable results before downstream use.</p>
-        <div class="proj-stack">
-          <span class="stag">Python</span><span class="stag">LLMs</span><span class="stag">Sentence Transformers</span><span class="stag">HDBSCAN</span><span class="stag">DuckDB</span>
-        </div>
-        <a href="https://github.com/rithujaa/DataBridge.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          View Github
-        </a>
-      </div>
+            <div class="proj-num">01</div>
+            <div class="proj-icon ip" style="background:rgba(168,85,247,.15)">🤖</div>
+            <div class="proj-title">DataBridge: AI-Powered Data Integration Pipeline</div>
+            <p class="proj-desc">Built an AI system to unify 1M+ records across 3 cities with incompatible schemas, eliminating weeks of manual mapping. Used LLMs and sentence embeddings to automatically match equivalent data points across datasets. Evaluated output quality using precision/recall metrics to ensure reliable results before downstream use.</p>
+            <div class="proj-stack">
+              <span class="stag">Python</span><span class="stag">LLMs</span><span class="stag">Sentence Transformers</span><span class="stag">HDBSCAN</span><span class="stag">DuckDB</span>
+            </div>
+            <a href="https://github.com/rithujaa/DataBridge.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 02: Kafka — Real-time streaming, latest project, new tool -->
           <div class="proj-card">
-        <div class="proj-num">02</div>
-        <div class="proj-icon ip">🏠</div>
-        <div class="proj-title">Airbnb Data Pipeline</div>
-        <p class="proj-desc">Built an automated Airflow DAG to ingest Airbnb listings daily with scheduling and retries, no manual intervention required. Developed a custom Postgres-to-S3 operator to automatically export query outputs as analytics-ready CSVs. Designed reproducible ingestion workflows with documented transformations for consistency and reliability.</p>
-        <div class="proj-stack">
-          <span class="stag">Apache Airflow</span><span class="stag">AWS S3</span><span class="stag">PostgreSQL</span><span class="stag">Pandas</span><span class="stag">Docker</span>
-        </div>
-        <a href="https://github.com/rithujaa/airbnb-data-pipeline-airflow.git"  target="_blank" class="btn-primary" style="margin-top:1.25rem">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          View Github
-        </a>
-      </div>
+            <div class="proj-num">02</div>
+            <div class="proj-icon ic" style="background:rgba(6,182,212,.15)">📡</div>
+            <div class="proj-title">Apache Kafka Real-Time Citi Bikes Pipeline</div>
+            <p class="proj-desc">Built a real-time data pipeline using Apache Kafka to stream Citi Bikes trip data through producers and consumers, sinking processed records into AWS S3. Containerized the full Kafka ecosystem with Docker Compose for reproducible local development and testing.</p>
+            <div class="proj-stack">
+              <span class="stag">Apache Kafka</span><span class="stag">Python</span><span class="stag">AWS S3</span><span class="stag">Docker</span>
+            </div>
+            <a href="https://github.com/rithujaa/apache-kafka-s3-pipeline.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 03: Real-Time Streaming — NiFi + Snowflake CDC, strong DE project -->
           <div class="proj-card">
-        <div class="proj-num">03</div>
-        <div class="proj-icon ic">🛒</div>
-        <div class="proj-title">E-Commerce Data Engineering Pipeline</div>
-        <p class="proj-desc">Cloud-native lakehouse pipeline ingesting datasets from GitHub into Azure Data Lake via ADF, transforming with Databricks/Spark, and loading curated data into Azure Synapse for SQL-based analytics and reporting.</p>
-        <div class="proj-stack">
-          <span class="stag">Azure Data Factory</span><span class="stag">ADLS Gen2</span><span class="stag">Databricks</span><span class="stag">Spark</span><span class="stag">Azure Synapse</span>
-        </div>
-        <a href="https://github.com/rithujaa/ecom-data-pipeline.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          View Github
-        </a>
-      </div>
+            <div class="proj-num">03</div>
+            <div class="proj-icon ia" style="background:rgba(245,158,11,.15)">⚡</div>
+            <div class="proj-title">Real-Time Data Streaming Pipeline</div>
+            <p class="proj-desc">Generated synthetic customer events on EC2 (Python/Faker) and streamed ingestion through NiFi into S3. Modeled data using Raw / Current / History layers with Snowpipe, Streams, and Tasks for automated CDC.</p>
+            <div class="proj-stack">
+              <span class="stag">AWS EC2</span><span class="stag">Apache NiFi</span><span class="stag">Amazon S3</span><span class="stag">Snowflake</span><span class="stag">Snowpipe</span><span class="stag">Streams</span><span class="stag">Tasks</span>
+            </div>
+            <a href="https://github.com/rithujaa/real-time-data-streaming.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 04: Airbnb — Solid Airflow orchestration project -->
           <div class="proj-card">
-        <div class="proj-num">04</div>
-        <div class="proj-icon ia">📡</div>
-        <div class="proj-title">Real-Time Data Streaming Pipeline</div>
-        <p class="proj-desc">Generated synthetic customer events on EC2 (Python/Faker) and streamed ingestion through NiFi into S3. Modeled data using Raw / Current / History layers with Snowpipe, Streams, and Tasks for automated CDC.</p>
-        <div class="proj-stack">
-          <span class="stag">AWS EC2</span><span class="stag">Apache NiFi</span><span class="stag">Amazon S3</span><span class="stag">Snowflake</span><span class="stag">Snowpipe</span><span class="stag">Streams</span><span class="stag">Tasks</span>
-        </div>
-        <a href="https://github.com/rithujaa/real-time-data-streaming.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          View Github
-        </a>
-      </div>
+            <div class="proj-num">04</div>
+            <div class="proj-icon ip">🏠</div>
+            <div class="proj-title">Airbnb Data Pipeline</div>
+            <p class="proj-desc">Built an automated Airflow DAG to ingest Airbnb listings daily with scheduling and retries, no manual intervention required. Developed a custom Postgres-to-S3 operator to automatically export query outputs as analytics-ready CSVs. Designed reproducible ingestion workflows with documented transformations for consistency and reliability.</p>
+            <div class="proj-stack">
+              <span class="stag">Apache Airflow</span><span class="stag">AWS S3</span><span class="stag">PostgreSQL</span><span class="stag">Pandas</span><span class="stag">Docker</span>
+            </div>
+            <a href="https://github.com/rithujaa/airbnb-data-pipeline-airflow.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 05: Spotify — Serverless ETL -->
           <div class="proj-card">
-        <div class="proj-num">05</div>
-        <div class="proj-icon ig">🎵</div>
-        <div class="proj-title">Spotify ETL Pipeline</div>
-        <p class="proj-desc">Built a serverless ETL pipeline using AWS Lambda to extract Spotify playlist data, transform into normalized tables, and load into Snowflake via Snowpipe. Delivered a fully automated pipeline with scheduled extraction, transformation, and warehouse ingestion.</p>
-        <div class="proj-stack">
-          <span class="stag">Spotify API</span><span class="stag">AWS S3</span><span class="stag">AWS Lambda</span><span class="stag">Snowflake</span><span class="stag">Snowpipe</span>
-        </div>
-        <a href="https://github.com/rithujaa/spotify-etl-pipeline.git"  target="_blank" class="btn-primary" style="margin-top:1.25rem">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-          View Github
-        </a>
+            <div class="proj-num">05</div>
+            <div class="proj-icon ig">🎵</div>
+            <div class="proj-title">Spotify ETL Pipeline</div>
+            <p class="proj-desc">Built a serverless ETL pipeline using AWS Lambda to extract Spotify playlist data, transform into normalized tables, and load into Snowflake via Snowpipe. Delivered a fully automated pipeline with scheduled extraction, transformation, and warehouse ingestion.</p>
+            <div class="proj-stack">
+              <span class="stag">Spotify API</span><span class="stag">AWS S3</span><span class="stag">AWS Lambda</span><span class="stag">Snowflake</span><span class="stag">Snowpipe</span>
+            </div>
+            <a href="https://github.com/rithujaa/spotify-etl-pipeline.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 06: E-Commerce — Azure lakehouse pipeline -->
+          <div class="proj-card">
+            <div class="proj-num">06</div>
+            <div class="proj-icon ic">🛒</div>
+            <div class="proj-title">E-Commerce Data Engineering Pipeline</div>
+            <p class="proj-desc">Cloud-native lakehouse pipeline ingesting datasets from GitHub into Azure Data Lake via ADF, transforming with Databricks/Spark, and loading curated data into Azure Synapse for SQL-based analytics and reporting.</p>
+            <div class="proj-stack">
+              <span class="stag">Azure Data Factory</span><span class="stag">ADLS Gen2</span><span class="stag">Databricks</span><span class="stag">Spark</span><span class="stag">Azure Synapse</span>
+            </div>
+            <a href="https://github.com/rithujaa/ecom-data-pipeline.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 07: Olympics — Azure ETL, similar stack but different domain -->
+          <div class="proj-card">
+            <div class="proj-num">07</div>
+            <div class="proj-icon ia" style="background:rgba(245,158,11,.15)">🏅</div>
+            <div class="proj-title">Olympics Data Pipeline (Azure)</div>
+            <p class="proj-desc">End-to-end Azure data engineering pipeline for Tokyo Olympics data. Ingested raw CSVs via Azure Data Factory into ADLS Gen2, transformed with Databricks/PySpark (type casting, aggregations, medal analysis), and loaded into Azure Synapse for SQL-based analytics.</p>
+            <div class="proj-stack">
+              <span class="stag">Azure Data Factory</span><span class="stag">ADLS Gen2</span><span class="stag">Databricks</span><span class="stag">PySpark</span><span class="stag">Azure Synapse</span>
+            </div>
+            <a href="https://github.com/rithujaa/olympics-data-analysis-azure.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 08: Employee Attrition — ML/DS, shows breadth -->
+          <div class="proj-card">
+            <div class="proj-num">08</div>
+            <div class="proj-icon ig" style="background:rgba(16,185,129,.15)">📊</div>
+            <div class="proj-title">Employee Attrition Prediction</div>
+            <p class="proj-desc">Predicted employee attrition using the IBM HR dataset (1,470 records). Performed EDA, addressed class imbalance with SMOTE, and trained Logistic Regression, Random Forest, XGBoost, and CatBoost models. Best model (CatBoost) achieved an AUC of 0.82 with key predictors like OverTime and JobSatisfaction.</p>
+            <div class="proj-stack">
+              <span class="stag">Python</span><span class="stag">Scikit-learn</span><span class="stag">XGBoost</span><span class="stag">CatBoost</span><span class="stag">SMOTE</span><span class="stag">Pandas</span>
+            </div>
+            <a href="https://github.com/rithujaa/employee-attrition-prediction.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
+          </div>
+          <!-- 09: NBA — Fun ML app, good conversation starter -->
+          <div class="proj-card">
+            <div class="proj-num">09</div>
+            <div class="proj-icon ip" style="background:rgba(124,58,237,.15)">🏀</div>
+            <div class="proj-title">NBA Player Similarity App</div>
+            <p class="proj-desc">Built a web app using K-Means clustering and Euclidean distance to find NBA players with similar statistical profiles. Scraped player data from Basketball-Reference using Selenium, and deployed an interactive Streamlit app for user exploration with radar chart visualizations.</p>
+            <div class="proj-stack">
+              <span class="stag">Python</span><span class="stag">Streamlit</span><span class="stag">Scikit-learn</span><span class="stag">Selenium</span><span class="stag">Pandas</span>
+            </div>
+            <a href="https://github.com/rithujaa/NBA-Player-Similarity-App.git" target="_blank" class="btn-primary" style="margin-top:1.25rem">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              View Github
+            </a>
           </div>
         </div>
       </div>
